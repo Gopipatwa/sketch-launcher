@@ -91,8 +91,8 @@ fun DrawerScreen(vm: LauncherViewModel) {
 
     val results = remember(vm.visibleApps, vm.query) { search(vm.visibleApps, vm.query) }
     val rows = remember(results, vm.query) {
-        if (vm.query.isNotBlank()) results.map { DrawerRow.App(it) }
-        else buildList {
+        if (vm.query.isNotBlank()) results.map<AppInfo, DrawerRow> { DrawerRow.App(it) }
+        else buildList<DrawerRow> {
             var last = ""
             results.forEach { app ->
                 val first = app.label.firstOrNull()?.uppercaseChar()

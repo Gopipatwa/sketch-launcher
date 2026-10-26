@@ -107,11 +107,13 @@ fun Modifier.paper(): Modifier = composed {
         val lineStroke = 1.dp.toPx()
         val ruledGap = 34.dp.toPx()
         val gridGap = 22.dp.toPx()
+        val width = size.width
+        val height = size.height
         val dots = if (p.pattern == PaperPattern.DOTS) buildList {
             var y = gridGap / 2
-            while (y < size.height) {
+            while (y < height) {
                 var x = gridGap / 2
-                while (x < size.width) {
+                while (x < width) {
                     add(Offset(x, y))
                     x += gridGap
                 }
