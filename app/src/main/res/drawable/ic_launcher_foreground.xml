@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- roof -->
+    <path
+        android:strokeColor="#2B2B2B"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M33,52 Q43,42 54.5,32.5 Q65,41.5 76,51.5" />
+    <path
+        android:strokeColor="#2B2B2B"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:pathData="M34.5,50.5 Q44,43.5 53.5,34 M55.5,33.5 Q66,43 74.5,52.5" />
+    <!-- walls -->
+    <path
+        android:strokeColor="#2B2B2B"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M38,49 Q37.5,62 38.5,75.5 Q54,76.5 70.5,75 Q71.5,62 70.5,48.5" />
+    <path
+        android:strokeColor="#2B2B2B"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"
+        android:pathData="M39.5,51 Q39,63 40,74 M41,77 Q55,75 69,77.5" />
+    <!-- door, hatched in marker yellow -->
+    <path
+        android:fillColor="#FFD84D"
+        android:pathData="M49,75 L49.5,62 Q54,60.5 59,62 L59.5,75 Z" />
+    <path
+        android:strokeColor="#2B2B2B"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M49,75.5 Q48.5,67 49.5,62 Q54,60 59,62 Q59.8,68 59.5,75.5" />
+    <!-- squiggle smoke -->
+    <path
+        android:strokeColor="#D9534F"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M66,38 Q63,34 66.5,31 Q70,28 67,24" />
+</vector>
